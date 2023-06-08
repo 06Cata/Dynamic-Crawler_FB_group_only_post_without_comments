@@ -7,8 +7,8 @@ import csv
 
 # # 到 selenium # #
 # 【零、設置好登入條件】
-FACEBOOK_ID = "catalinakuowork@gmail.com"
-FACEBOOK_PW = "Aa_0954033969"
+FACEBOOK_ID = "your email"
+FACEBOOK_PW = "your password"
 TARGET_URL = "https://www.facebook.com/groups/pythontw"
 
 
