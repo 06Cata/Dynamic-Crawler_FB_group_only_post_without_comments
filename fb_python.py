@@ -22,8 +22,6 @@ options.add_argument("incognito")
 driver = webdriver.Chrome(options = options)
 driver.get("https://www.facebook.com")
 
-print("go " + driver.title )
-
 
 # 【三、使用 find_element() 找到要輸入的表格】
 email =  driver.find_element(By.ID, "email")
