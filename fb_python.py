@@ -68,7 +68,7 @@ with open('news.csv', 'a', newline='', encoding='utf-8') as file:
     # 寫入表頭
     writer.writerow(['時間', '標題'])
     
-    # 寫入每篇文章的時間和標題
+    # 寫入每篇文章的時間和內容(X打開顯示更多的)
     for i in range(len(titles)):
         # 取得時間內容, 有可能讀不到, 設置try except
         try:
